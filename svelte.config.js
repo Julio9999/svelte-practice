@@ -16,8 +16,9 @@ const config = {
 			"@api-client": "./src/lib/api-client",
 			"@interfaces/*": "./src/interfaces/*",
 			"@services/*": "./src/services/*"
-		}
+		},
 	}
+	
 };
 
 export default config;

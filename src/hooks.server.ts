@@ -4,7 +4,6 @@ import jwt from 'jsonwebtoken';
 export const handle: Handle = async ({ event, resolve }) => {
     const access_token = event.cookies.get('access_token');
     const pathName = event.url.pathname;
-
     let user = null;
 
     if (access_token) {
