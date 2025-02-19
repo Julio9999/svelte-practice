@@ -25,7 +25,6 @@ export function createFetcher<T>({ fetcher }: Params<T>) {
   fetchData();
 
   return {
-    fetchData, 
     getData() {
       return data;
     },
