@@ -7,4 +7,4 @@
     })
 </script>
 
-<p>Pagina principal</p>
+<p class="text-red-500 border-2 border-red-500"> Pagina principal</p>
